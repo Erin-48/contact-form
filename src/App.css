@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display:wght@500&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #fbfcff;
+  align-items: center;
+  padding: 0 70px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+}
+
+.contact-wrap {
+  background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/929b410ce42b54968cb70122/9667c06a-b92c-447d-9881-1d93516485c9.jpg);
+  background-position: 50% 50%;
+  padding: 40px 0;
+}
+
+.contact {
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.contact h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 65px;
+}
+
+.contact form {
+  width: 100%;
+}
+
+.contact form input,
+.contact form textarea {
+  margin: 40px 0;
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: solid 2px;
+  padding: 15px;
+}
+
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.contact form button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  background-color: #fff;
+  border: solid 2px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.contact-wrap .contact-info {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #111;
+  color: #fff;
+  /* padding: 40px; */
+}
+
+.contact-wrap .contact-info div {
+  margin: 40px;
+  width: 30%;
+}
+
+.contact-wrap .contact-info div h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.contact-wrap .contact-info div h3 i {
+  margin-right: 12px;
+}
+
+.contact-wrap .contact-info div p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+footer {
+  height: 80px;
+  background-color: #333;
+}
+
+footer p {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 80px;
+  text-align: center;
+}
